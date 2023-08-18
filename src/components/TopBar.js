@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import expandSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/expand.png';
+import expandSymbol from '../images/expand.png';
 
 const TopBar = ({ onGroupingChange, onSortingChange, selectedGroupingOption, selectedSortingOption }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

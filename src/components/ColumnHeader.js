@@ -1,16 +1,16 @@
 import React from 'react';
 
-import todoSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/todo.png'; 
-import inProgressSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/inprogress.png'; 
-import backlogSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/backlog.png'; 
+import todoSymbol from '../images/todo.png'; 
+import inProgressSymbol from '../images/inprogress.png'; 
+import backlogSymbol from '../images/backlog.png'; 
 
-import noPrioritySymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/nopriority.png'; 
-import urgentSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/urgent.png'; 
-import highPrioritySymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/high.png';
-import mediumPrioritySymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/medium.png';
-import lowPrioritySymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/low.png'; 
+import noPrioritySymbol from '../images/nopriority.png'; 
+import urgentSymbol from '../images/urgent.png'; 
+import highPrioritySymbol from '../images/high.png';
+import mediumPrioritySymbol from '../images/medium.png';
+import lowPrioritySymbol from '../images/low.png'; 
 
-import addSymbol from '/Users/gaurangdesai/Desktop/Quicksell-assignment/kanban-board/src/images/add.png';
+import addSymbol from '../add.png';
 
 const ColumnHeader = ({ header, ticketCount }) => {
   return (
