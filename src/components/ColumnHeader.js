@@ -10,7 +10,7 @@ import highPrioritySymbol from '../images/high.png';
 import mediumPrioritySymbol from '../images/medium.png';
 import lowPrioritySymbol from '../images/low.png'; 
 
-import addSymbol from '../add.png';
+import addSymbol from '../images/add.png';
 
 const ColumnHeader = ({ header, ticketCount }) => {
   return (
